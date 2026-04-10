@@ -39,7 +39,7 @@ const MOCK_DB = {
         uptime: 98.7,
         rating: 4.7,
         nextService: '2026-06-03',
-        image: '/content/dam/wknd/machines/fresco-deluxe-yosemite.jpg'
+        image: '/dashboard/media_17e4294d46219f3f59d3865f5d5c595cdae975ecc.jpg?width=750&format=webply&optimize=medium'
       },
       {
         id: 'FE-6761',
@@ -93,7 +93,7 @@ const MOCK_DB = {
         uptime: 99.5,
         rating: 4.8,
         nextService: '2026-05-15',
-        image: '/content/dam/securbank/machines/fresco-deluxe-nyc.jpg'
+        image: '/dashboard/media_17e4294d46219f3f59d3865f5d5c595cdae975ecc.jpg?width=750&format=webply&optimize=medium'
       },
       {
         id: 'FD-4402',
@@ -105,7 +105,7 @@ const MOCK_DB = {
         uptime: 97.2,
         rating: 4.7,
         nextService: '2026-05-15',
-        image: '/content/dam/securbank/machines/fresco-deluxe-chicago.jpg'
+        image: '/dashboard/media_17e4294d46219f3f59d3865f5d5c595cdae975ecc.jpg?width=750&format=webply&optimize=medium'
       },
       {
         id: 'F0-3310',
