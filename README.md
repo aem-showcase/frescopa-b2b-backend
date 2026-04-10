@@ -2,11 +2,6 @@
 
 Mock enterprise CRM API built on [Adobe App Builder](https://developer.adobe.com/app-builder/docs/overview/) for the Frescopa B2B demo. Returns customer profile data including company info, revenue metrics, and coffee machine fleet details.
 
-## Live Endpoint
-
-```
-https://3374739-frescopab2b.adobeioruntime.net/api/v1/web/frescopa-b2b/crm
-```
 
 ## Usage
 
