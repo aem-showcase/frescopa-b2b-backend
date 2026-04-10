@@ -27,7 +27,7 @@ const MOCK_DB = {
         uptime: 99.1,
         rating: 4.9,
         nextService: '2026-06-03',
-        image: '/content/dam/wknd/machines/fresco-original-tahoe.jpg'
+        image: '/dashboard/media_1583f3e9fb09c2caefda625cb10d55951d4dd9204.jpg?width=750&format=webply&optimize=medium'
       },
       {
         id: 'FD-8584',
@@ -63,7 +63,7 @@ const MOCK_DB = {
         uptime: 99.1,
         rating: 4.9,
         nextService: '2026-06-03',
-        image: '/content/dam/wknd/machines/fresco-original-tahoe-2.jpg'
+        image: '/dashboard/media_1583f3e9fb09c2caefda625cb10d55951d4dd9204.jpg?width=750&format=webply&optimize=medium'
       }
     ]
   },
@@ -117,7 +117,7 @@ const MOCK_DB = {
         uptime: 87.3,
         rating: 4.5,
         nextService: '2026-04-12',
-        image: '/content/dam/securbank/machines/fresco-original-miami.jpg'
+        image: '/dashboard/media_1583f3e9fb09c2caefda625cb10d55951d4dd9204.jpg?width=750&format=webply&optimize=medium'
       },
       {
         id: 'FE-7720',
@@ -141,7 +141,7 @@ const MOCK_DB = {
         uptime: 96.4,
         rating: 4.6,
         nextService: '2026-05-28',
-        image: '/content/dam/securbank/machines/fresco-original-dallas.jpg'
+        image: '/dashboard/media_1583f3e9fb09c2caefda625cb10d55951d4dd9204.jpg?width=750&format=webply&optimize=medium'
       }
     ]
   }
