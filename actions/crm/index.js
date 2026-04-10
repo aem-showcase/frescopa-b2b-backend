@@ -51,7 +51,7 @@ const MOCK_DB = {
         uptime: 94.7,
         rating: 4.6,
         nextService: '2026-05-02',
-        image: '/content/dam/wknd/machines/fresco-expresso-bali.jpg'
+        image: '/dashboard/media_11f3b80adfab87b8db2f202ba93db5b708977c21f.jpg?width=750&format=webply&optimize=medium'
       },
       {
         id: 'F0-2749',
@@ -129,7 +129,7 @@ const MOCK_DB = {
         uptime: 98.1,
         rating: 4.9,
         nextService: '2026-06-20',
-        image: '/content/dam/securbank/machines/fresco-expresso-sf.jpg'
+        image: '/dashboard/media_11f3b80adfab87b8db2f202ba93db5b708977c21f.jpg?width=750&format=webply&optimize=medium'
       },
       {
         id: 'F0-3311',
