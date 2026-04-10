@@ -65,7 +65,54 @@ const MOCK_DB = {
         nextService: '2026-06-03',
         image: '/dashboard/media_1583f3e9fb09c2caefda625cb10d55951d4dd9204.jpg?width=750&format=webply&optimize=medium'
       }
-    ]
+    ],
+    usage: {
+      unitLabel: 'CUPS PER DAY',
+      dailySpikes: [
+        { label: 'Mon', value: 420 },
+        { label: 'Tue', value: 510 },
+        { label: 'Wed', value: 380 },
+        { label: 'Thu', value: 620 },
+        { label: 'Fri', value: 590 }
+      ],
+      byLocation: [
+        { label: 'LAKE TAHOE', value: 720 },
+        { label: 'YOSEMITE', value: 540 },
+        { label: 'BALI', value: 410 },
+        { label: 'MONT BLANC', value: 360 },
+        { label: 'WHISTLER', value: 240 }
+      ],
+      seasonalSummaries: [
+        { label: 'Winter', value: 480 },
+        { label: 'Spring', value: 520 },
+        { label: 'Summer', value: 610 },
+        { label: 'Fall', value: 455 }
+      ]
+    },
+    insights: [
+      {
+        title: 'LAKE TAHOE is your top performer',
+        titleEmphasis: 'LAKE TAHOE',
+        summary: '140 cups/day avg. 58% above fleet average. Consider adding a second machine before the Feb ski peak.',
+        ctaLabel: 'See Expansion Deal',
+        ctaUrl: '/dashboard/schedule'
+      },
+      {
+        title: 'CONTRACT RENEWAL in 47 days.',
+        titleEmphasis: 'CONTRACT RENEWAL',
+        summary: 'Renew before May 15 and lock in current pricing, rates increase 8% on May 16.',
+        ctaLabel: 'Renew Now',
+        ctaUrl: '/dashboard/regions'
+      },
+      {
+        title: 'BALI CAMP underutilized post-event hours',
+        titleEmphasis: 'BALI CAMP',
+        summary: 'Evening cold brew activations could add ~$480/mo in beverage revenue. Install our RTD kit as an add-on.',
+        ctaLabel: 'Add now',
+        ctaUrl: '/dashboard/inventory'
+      }
+    ],
+    insightsListUrl: '/insights'
   },
   'fred@securbank.com': {
     name: 'Fred',
@@ -143,7 +190,54 @@ const MOCK_DB = {
         nextService: '2026-05-28',
         image: '/dashboard/media_1583f3e9fb09c2caefda625cb10d55951d4dd9204.jpg?width=750&format=webply&optimize=medium'
       }
-    ]
+    ],
+    usage: {
+      unitLabel: 'CUPS PER DAY',
+      dailySpikes: [
+        { label: 'Mon', value: 680 },
+        { label: 'Tue', value: 720 },
+        { label: 'Wed', value: 695 },
+        { label: 'Thu', value: 740 },
+        { label: 'Fri', value: 550 }
+      ],
+      byLocation: [
+        { label: 'NYC HQ', value: 890 },
+        { label: 'CHICAGO', value: 640 },
+        { label: 'MIAMI', value: 310 },
+        { label: 'SF LAB', value: 520 },
+        { label: 'DALLAS', value: 280 }
+      ],
+      seasonalSummaries: [
+        { label: 'Winter', value: 590 },
+        { label: 'Spring', value: 640 },
+        { label: 'Summer', value: 510 },
+        { label: 'Fall', value: 680 }
+      ]
+    },
+    insights: [
+      {
+        title: 'NYC HEADQUARTERS is your top performer',
+        titleEmphasis: 'NYC HEADQUARTERS',
+        summary: '178 cups/day avg. 72% above fleet average. Executive floor accounts for 40% of volume — consider a second unit.',
+        ctaLabel: 'See Expansion Deal',
+        ctaUrl: '/dashboard/schedule'
+      },
+      {
+        title: 'MIAMI BRANCH machine offline for 3 days',
+        titleEmphasis: 'MIAMI BRANCH',
+        summary: 'Unit F0-3310 needs servicing. Overdue since Apr 12. Estimated revenue loss: $320/week.',
+        ctaLabel: 'Schedule Service',
+        ctaUrl: '/dashboard/service'
+      },
+      {
+        title: 'CONTRACT RENEWAL in 35 days.',
+        titleEmphasis: 'CONTRACT RENEWAL',
+        summary: 'Renew before May 15 and lock in current pricing. Multi-year discount available for 5+ machine fleets.',
+        ctaLabel: 'Renew Now',
+        ctaUrl: '/dashboard/regions'
+      }
+    ],
+    insightsListUrl: '/insights'
   }
 }
 
