@@ -1,0 +1,27 @@
+{
+  "project": {
+    "id": "4566206088345630498",
+    "name": "frescopab2b",
+    "title": "FrescopaB2BData",
+    "org": {
+      "id": "3374739",
+      "name": "AEM Showcase",
+      "ims_org_id": "38931D6666E3ECDA0A495E80@AdobeOrg"
+    },
+    "workspace": {
+      "id": "4566206088345665718",
+      "name": "Production",
+      "title": "Production",
+      "action_url": "https://3374739-frescopab2b.adobeioruntime.net",
+      "app_url": "https://3374739-frescopab2b.adobeio-static.net",
+      "details": {
+        "credentials": [],
+        "services": [],
+        "events": {
+          "registrations": []
+        },
+        "mesh": {}
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+application:
+  actions: actions
+  runtimeManifest:
+    packages:
+      frescopa-b2b:
+        license: Apache-2.0
+        actions:
+          crm:
+            function: actions/crm/index.js
+            web: 'yes'
+            runtime: nodejs:18
+            inputs:
+              LOG_LEVEL: debug
+            annotations:
+              require-adobe-auth: false
+              final: true
