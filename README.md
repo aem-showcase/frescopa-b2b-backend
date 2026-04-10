@@ -8,13 +8,13 @@ Mock enterprise CRM API built on [Adobe App Builder](https://developer.adobe.com
 **GET** (browser-friendly):
 
 ```
-https://3374739-frescopab2b.adobeioruntime.net/api/v1/web/frescopa-b2b/crm?username=megan@wknd.com
+https://yourendpoint.adobeioruntime.net/api/v1/web/frescopa-b2b/crm?username=megan@wknd.com
 ```
 
 **POST**:
 
 ```bash
-curl -X POST "https://3374739-frescopab2b.adobeioruntime.net/api/v1/web/frescopa-b2b/crm" \
+curl -X POST "https://yourendpoint.adobeioruntime.net/api/v1/web/frescopa-b2b/crm" \
   -H "Content-Type: application/json" \
   -d '{"username": "megan@wknd.com"}'
 ```
